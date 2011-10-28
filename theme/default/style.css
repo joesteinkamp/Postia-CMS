@@ -1,0 +1,241 @@
+/* 
+Theme Name: Default
+Theme URI: http://joesteinkamp.com
+Theme Description: 
+Theme Author: Joe Steinkamp
+
+
+
+*/
+
+/* *** GLOBAL *** */
+body {
+	line-height: 18px;
+	font-size: 15px;
+	background: #f1f1f1;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: bold;
+}
+blockquote {
+	quotes: none;
+	
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+hr {
+	background-color: #e7e7e7;
+	border: 0;
+	clear: both;
+	height: 1px;
+	margin-bottom: 18px;
+}
+p {
+	margin-bottom: 18px;
+}
+ul {
+	list-style: square;
+	margin: 0 0 18px 1.5em;
+}
+ol {
+	list-style: decimal;
+	margin: 0 0 18px 1.5em;
+}
+dl {
+	margin: 0 0 24px 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 18px;
+}
+ins {
+	background: #ffc;
+	text-decoration: none;
+}
+pre {
+	background: #f7f7f7;
+	color: #222;
+	line-height: 18px;
+	margin-bottom: 18px;
+	padding: 1.5em;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+sup, sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+input[type="text"], input[type="password"], textarea {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 2px;
+	font-size: 14px;
+}
+a:link {
+	color: #0066cc;
+}
+a:visited {
+	color: #4344aa;
+}
+a:active, a:hover {
+	color: #ff4b33;
+}
+
+
+/* FONTS */
+body, input, textarea {
+	font-family: "Lucida Grande", Verdana, Arial;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Bitstream Charter", serif;
+}
+input[type=submit] {
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+code, blockquote {
+	font-family: Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+
+
+
+
+
+/* *** STRUCTURE *** */
+
+
+div#container {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #fff;
+	padding: 20px;
+}
+
+
+
+/* LOGO & NAVIGATION */
+div#logo {
+	margin-bottom: 10px;
+	float: left;
+}
+div#logo h1.sitename {
+	margin: 0 0 4px 0;
+}
+div#logo h2.slogan {
+	font-weight: normal;
+	font-style:  italic;	
+	font-size: 14px;
+	margin: 0 0 0 45px;
+}
+div#search {
+	float: right;
+}
+ul#menu {
+	clear: both;
+	height: auto;
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	padding: 7px 25px;
+	border-bottom: solid 2px #d8d8d8;
+}
+ul#menu li {
+	display: inline;
+	padding: 7px 3px;
+}
+ul#menu a {
+	padding: 7px 5px; 
+}
+ul#menu a:hover, ul#menu a.active {
+	border-bottom: solid 2px #333;
+}
+
+/* FORM */
+div#form textarea {
+	width: 100%;
+	overflow: auto;
+}
+div#form input#submit {
+	display: block;
+	float: left;
+}
+div#form input#title {
+	margin-right: 15px;
+	width: 200px;
+	display: block;
+	float: right;
+}
+div#form input#file {
+	display: block;
+	float: right;
+}
+
+
+/* CONTENT */
+div#content{
+
+}
+
+
+/* POSTS */
+div.post {
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #c7c7c7;
+	border-bottom-style: dashed;
+	margin-bottom: 5px;
+}
+div.postcontent {
+	margin-bottom: 8px;
+}
+
+
+
+/* COMMENTS */
+
+form.postcommentform {
+	
+}
+form.postcommentform textarea {
+	width: 80%;
+	height: 72px;
+}
+
+div.comment {
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #c7c7c7;
+	border-bottom-style: dashed;
+	margin-bottom: 5px;
+	line-height: 18px;
+}
+

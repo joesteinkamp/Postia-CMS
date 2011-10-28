@@ -1,0 +1,90 @@
+body {
+	width: 100%;
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div#topbar {
+	background-color: #6077a1;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 25px;
+}div#topbar a {
+	color: white;
+}
+div#topbar a#logout {
+	float: right;
+}
+div#content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 724px;
+}
+ul#adminnav {
+	padding: 0px;
+}
+ul#adminnav li {
+	display: inline;
+	margin: 5px;
+}
+ul#adminnav li a {
+	padding: 3px 5px;
+}
+ul#adminnav li a:hover {
+	background: #ccc;
+}
+ul#adminnav li a.active {
+	background: #ccc;
+	color: #000;
+}
+form#loginbox {
+	border-color: #cfcfcf;
+	border-style: dotted;
+	border-width: 1px;
+	margin-top: 150px;
+	padding: 10px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form#loginbox h3 {
+	margin: 0px;
+}
+form#loginbox input {
+	font-family: , Helvetica, Verdana, Arial;
+	font-size: 14px;
+	width: 100%;
+}
+
+/* COMMENTS MANAGEMENT */
+ul#commenttypes {
+	margin: 0; padding: 0 0 5px;
+	list-style-type: none;
+}
+ul#commenttypes li {
+	display: inline;
+}
+ul#commenttypes li a {
+	padding: 0 8px;
+	text-decoration: none;
+}
+table#comments {
+	
+}
+table#comments td {
+	vertical-align: top;
+}
+ul.commentadminnav {
+	margin: 0; padding: 0 0 5px;
+	list-style-type: none;
+}
+ul.commentadminnav li {
+	display: inline;
+}
+ul.commentadminnav li a {
+	padding: 0 8px;
+	text-decoration: none;
+}
